@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    	<meta charset="utf-8">
-    	<meta name="keywords" content="Daily news, Videos">
-    	<meta name="description" content="I love to learn current Affairs and news and intersted in general knowledge ">
-
-		<title>Current Affairs</title>
-		
-		<!-- external CSS link -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+	<title>Recruitment Portal Login</title>
 </head>
-
 <body>
-	<div id="container">
-	<!-- START HERE --> 
-	<h1>Current Affairs</h1>
-	<h2>Today Highlights</h2>
+	<h1>Recruitment Portal Login</h1>
 
-   <a href="https://www.gktoday.in/current-affairs/25th-national-youth-festival/" target="_blank"> <h3>25th National Youth Festival</h3></a>
-	<p><img src="images/national-youth-festival-2022.png" alt="National Youth Festival" width="260" height="190">25th National Youth Festival was inaugurated by Prime Minister Narendra Modi in Puducherry on the occasion of birth anniversary of Swami Vivekananda. Highlights of PM’s address On the occasion, prime minister highlighted that; world looks at India’s young demography with hope & faith and India is young in its thoughts & consciousness. India’s thinking and ..</p>
-	<a href="https://www.gktoday.in/current-affairs/tamil-nadu-regional-plan-rules-2021/" target="_blank"><h3>Tamil Nadu Regional Plan Rules</h3></a>
-	<p><img src="images/tamil-nadu.png" alt="Tamil Nadu Map" width="260" height="190">
-Government of Tamil Nadu notified the “Regional Plan (Preparation, Publication and Sanction) Rules, 2021” in accordance with the Tamil Nadu Town and Country Planning Act, 1971. Key Points As per notification, the Regional Planning Authority (RPA) should prepare a land-and building-use map for regional planning areas as well as for different parts of regional area, ..</p>
+	<!-- Recruiter Login Form -->
+	<h2>Recruiter Login</h2>
+	<form>
+		<label for="recruiter_username">Username:</label>
+		<input type="text" id="recruiter_username" name="recruiter_username"><br><br>
 
-<iframe width="460" height="315" src="https://www.youtube.com/embed/OOourvN7vHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-	<!-- END HERE --> 
-	</div><!-- #container --> 
+		<label for="recruiter_password">Password:</label>
+		<input type="password" id="recruiter_password" name="recruiter_password"><br><br>
+
+		<input type="submit" value="Login">
+	</form>
+
+	<!-- Candidate Login Form -->
+	<h2>Candidate Login</h2>
+	<form>
+		<label for="candidate_username">Username:</label>
+		<input type="text" id="candidate_username" name="candidate_username"><br><br>
+
+		<label for="candidate_password">Password:</label>
+		<input type="password" id="candidate_password" name="candidate_password"><br><br>
+
+		<input type="submit" value="Login">
+	</form>
+
+	<!-- Registration Form -->
+	<h2>New User? Register Here</h2>
+	<form>
+		<label for="full_name">Full Name:</label>
+		<input type="text" id="full_name" name="full_name"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+		<input type="submit" value="Register">
+	</form>
 </body>
 </html>
-
-
-
-
